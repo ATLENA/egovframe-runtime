@@ -310,7 +310,7 @@
          
     <distributionManagement>
         <repository>
-            <id>egovframe</id>
+            <id>github</id>
             <name>atlena</name>
             <url>https://maven.pkg.github.com/atlena/egovframe-runtime</url>
        </repository>
