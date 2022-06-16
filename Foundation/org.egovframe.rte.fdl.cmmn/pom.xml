@@ -307,4 +307,12 @@
             </plugin>
         </plugins>
     </reporting>
+         
+    <distributionManagement>
+        <repository>
+            <id>egovframe</id>
+            <name>atlena</name>
+            <url>https://maven.pkg.github.com/atlena/egovframe-runtime</url>
+       </repository>
+    </distributionManagement>
 </project>
