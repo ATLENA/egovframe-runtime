@@ -6,6 +6,16 @@
 	<packaging>pom</packaging>
 	<version>4.0.0</version>
 	<name>org.egovframe.rte.root</name>
+	
+	<properties>
+        	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        	<maven.compiler.source>1.8</maven.compiler.source>
+        	<maven.compiler.target>1.8</maven.compiler.target>
+
+        	<sonar.projectKey>ATLENA_egovframe-runtime</sonar.projectKey>
+        	<sonar.organization>atlena</sonar.organization>
+        	<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+     	</properties>
 
 	<modules>
 
@@ -38,5 +48,13 @@
 		<module>Batch/org.egovframe.rte.bat.core</module>
 
 	</modules>
+	
+	<distributionManagement>
+        	<repository>
+            		<id>github</id>
+            		<name>atlena</name>
+            		<url>https://maven.pkg.github.com/atlena/egovframe-runtime</url>
+        	</repository>
+    	</distributionManagement>
 
 </project>
